@@ -1,33 +1,34 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: cursive;
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: cursive;
 }
 body{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(236, 236, 231);
     
 }
 .container{
  width: 450px;
  padding: 25px 35px;
- background-color: #7e7676;
+ background-color: #ffffff;
  color: black;
  border-radius: 10px;
 }
 .container h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 29px;
-    font-weight: 25px;
-    padding: 50px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   margin-bottom: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 29px;
+ font-weight: 25px;
+ padding: 50px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-top: 10px;
 }
 
 .container input{
@@ -37,21 +38,24 @@ body{
  border: 1px solid rgba(228,223,223);
  margin-top: 30px;
  outline: none;
-
-border-radius: 10px;
-box-shadow: 3px 4px 5px rgba(0,0,0,0.3)inset;
+ margin: 28px 0;
+ border-radius: 10px;
+ box-shadow: 3px 4px 5px rgba(0,0,0,0.3)inset;
 
 }
 .container button{
-  display: flex;
+ display: flex;
  justify-content: center;
  align-items: center;
  width: 100%;
- height: 35px;
+ height: 45px;
  margin-top: 35px;
  border: none;
  outline: none;
-border-radius: 10px;
-box-shadow: 3px 4px 5px rgba(0,0,0,0.3)inset;
+ border-radius: 10px;
+ box-shadow: 3px 4px 5px rgba(0,0,0,0.3)inset;
+ background-color: blueviolet;
+ color: #ffffff;
+ cursor: pointer;
 
 }
