@@ -47,10 +47,14 @@ body {
 }
 
 .box img {
+  margin-left: 20px;
+
   margin: 15px 0;
   width: 150px;
   height: 150px;
+  padding: 10px;
   transition: max-height 1s;
+
 }
 
 .box button {
